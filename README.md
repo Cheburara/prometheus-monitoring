@@ -47,6 +47,20 @@ There are multiple exporters available for this task, including:
 - blackbox-exporter: Probes endpoints for SSL/TLS certificate expiration monitoring.
 
 ## How to use
+Before running the monitoring stack, ensure that Docker and Docker Compose are installed.
+For Ubuntu/Linux
+
+# Install Docker
+sudo apt update
+sudo apt install -y docker.io
+
+# Install Docker Compose
+sudo apt install -y docker-compose
+
+# Enable Docker service to start on boot
+sudo systemctl enable docker
+sudo systemctl start docker
+
 ### **Start the Monitoring Stack**
 Run the following command to start all services: **`docker-compose up -d`**
 ### **Access the Services**
