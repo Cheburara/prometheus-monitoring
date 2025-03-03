@@ -43,8 +43,10 @@ The containerization approach was used as the project does not manage multiple s
 There are multiple exporters available for this task, including:
 
 - node-cert-exporter: Extracts certificate expiration details.
+- Repository: https://github.com/amimof/node-cert-exporter
 
 - blackbox-exporter: Probes endpoints for SSL/TLS certificate expiration monitoring.
+- Repository: https://github.com/prometheus/blackbox_exporter
 
 ## How to use
 Before running the monitoring stack, ensure that Docker and Docker Compose are installed.
